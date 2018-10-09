@@ -199,6 +199,7 @@ export default [
           },
         ],
       },
+      // personal
       {
         name: 'account',
         icon: 'user',
@@ -256,6 +257,16 @@ export default [
           },
         ],
       },
+
+      // 首页
+      {
+        name: 'index',
+        path: '/index',
+        // icon: '',
+        // redirect: '/index'
+        // component: '/Index',
+      },
+
       {
         component: '404',
       },
