@@ -264,7 +264,7 @@ export default [
         path: '/index',
         // icon: '',
         // redirect: '/index'
-        // component: '/Index',
+        component: './Index',
       },
 
       {

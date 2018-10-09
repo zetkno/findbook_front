@@ -1,7 +1,11 @@
-import React from 'react';
-import Link from 'umi/link';
-import Exception from '@/components/Exception';
 
-export default () => (
-  <Exception type="404" style={{ minHeight: 500, height: '100%' }} linkElement={Link} />
-);
+
+import React, { PureComponent } from 'react';
+
+class index extends PureComponent {
+  render() {
+    return <div>首页内容</div>;
+  }
+}
+
+export default index;
