@@ -18,7 +18,7 @@ export default [
     authority: ['admin', 'user'],
     routes: [
       // dashboard
-      { path: '/', redirect: '/dashboard/analysis' },
+      { path: '/', redirect: '/Index' },
       {
         path: '/dashboard',
         name: 'dashboard',
@@ -261,10 +261,34 @@ export default [
       // 首页
       {
         name: 'index',
-        path: '/index',
+        path: '/Index',
         // icon: '',
         // redirect: '/index'
         component: './Index',
+      },
+      // 书籍管理
+      {
+        name: 'manageBook',
+        path: '/ManageBook',
+        component: './ManageBook',
+      },
+      // 分类管理
+      {
+        name: 'manageType',
+        path: '/ManageType',
+        component: './ManageType',
+      },
+      // 用户管理
+      {
+        name: 'manageUser',
+        path: '/ManageUser',
+        component: './ManageUser',
+      },
+      // 统计
+      {
+        name: 'count',
+        path: '/count',
+        component: './count',
       },
 
       {
